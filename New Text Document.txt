@@ -1,0 +1,451 @@
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ ls
+'3D Objects'/         IntelGraphicsProfiles/
+ AppData/             Links/
+'Application Data'@  'Local Settings'@
+ Contacts/            Music/
+ Cookies@            'My Documents'@
+ Desktop/             NTUSER.DAT
+ Documents/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ Downloads/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer000
+ Favorites/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer000
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd documents
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents
+$ ls
+'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini   git/   gitlearn/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents
+$ cd git
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrator/Documents/git/.git/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ ls
+first.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first.txt
+
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ cat first.txt
+.txt
+
+
+
+[1]+  Stopped                 cat
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ cat first.txt
+This is my first document
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git add first.txt
+fatal: Unable to create 'C:/Users/Administrator/Documents/git/.git/index.lock': File
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git add first.txt
+fatal: Unable to create 'C:/Users/Administrator/Documents/git/.git/index.lock': File
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ ls
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrator/Documents/git/.git/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git add
+fatal: Unable to create 'C:/Users/Administrator/Documents/git/.git/index.lock': File
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ ls -al
+total 8
+drwxr-xr-x 1 OTLCHEDT027+Administrator 197121 0 Apr  7 11:54 ./
+drwxr-xr-x 1 OTLCHEDT027+Administrator 197121 0 Apr  5 14:08 ../
+drwxr-xr-x 1 OTLCHEDT027+Administrator 197121 0 Apr  7 11:55 .git/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ cd .git
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git/.git (GIT_DIR!)
+$ ls
+COMMIT_EDITMSG  HEAD  config  description  hooks/  index  index.lock  info/  next-ind
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git/.git (GIT_DIR!)
+$ cat index.lock
+DIRCbLX▒Q▒bLX▒Q▒▒▒▒⛲▒▒CK▒)▒wZ▒▒▒S▒     first.txtTREE1 0
+f▒▒▒$8▒▒▒
+         ▒ɼ▒/▒o▒^▒▒▒t▒@i▒▒▒8^▒▒▒▒:
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git/.git (GIT_DIR!)
+$ cat test.txt
+cat: test.txt: No such file or directory
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git/.git (GIT_DIR!)
+$ cd
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ ls
+'3D Objects'/         IntelGraphicsProfiles/
+ AppData/             Links/
+'Application Data'@  'Local Settings'@
+ Contacts/            Music/
+ Cookies@            'My Documents'@
+ Desktop/             NTUSER.DAT
+ Documents/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ Downloads/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer000
+ Favorites/           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer000
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd ..
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 /c/Users
+$ ls
+ Administrator/  'All Users'@   Default/  'Default User'@   Lenovo/   Public/   deskt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 /c/Users
+$ pwd
+/c/Users
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 /c/Users
+$ cd
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd documents
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents
+$ ls
+'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini   git/   gitlearn/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents
+$ cd git
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ ls
+test.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git add test.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.txt
+        new file:   test.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git config --global user.name "Mukesh"
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git config --global user.email "mukesh_balaji@onwardgroup.com"
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.txt
+        new file:   test.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git commit -m "this is my first commit"
+[master (root-commit) 11cdd5b] this is my first commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 first.txt
+ create mode 100644 test.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git log
+commit 11cdd5b1ca86f385d9a32da032cc9a44fbf59549 (HEAD -> master)
+Author: Mukesh <mukesh_balaji@onwardgroup.com>
+Date:   Thu Apr 7 12:04:14 2022 +0530
+
+    this is my first commit
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git remote add origin https://github.com/Mossy1927/test.git
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Mossy1927/test.git'
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git push -u origin https://github.com/Mossy1927/test.git
+fatal: invalid refspec 'https://github.com/Mossy1927/test.git'
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (master)
+$ git branch -M main
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git push -u origin https://github.com/Mossy1927/test.git
+fatal: invalid refspec 'https://github.com/Mossy1927/test.git'
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 270 bytes | 270.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mossy1927/test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git log
+commit 11cdd5b1ca86f385d9a32da032cc9a44fbf59549 (HEAD -> main, origin/main)
+Author: Mukesh <mukesh_balaji@onwardgroup.com>
+Date:   Thu Apr 7 12:04:14 2022 +0530
+
+    this is my first commit
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ ls
+test.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git add test-2.txt
+fatal: pathspec 'test-2.txt' did not match any files
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git add test-2.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git commit -m "second commit"
+[main f0fccb9] second commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 test-2.txt
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git branch -M main
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git remote add origin https://github.com/Mossy1927/test-2.git
+error: remote origin already exists.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 396 bytes | 396.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mossy1927/test.git
+   11cdd5b..f0fccb9  main -> main
+branch 'main' set up to track 'origin/main'.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/documents/git (main)
+$ cd
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$  mkdir git_demo
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~
+$ cd git_demo
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo
+$ pwd
+/c/Users/Administrator/git_demo
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo
+$ mkdir changes
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo
+$ cd changes
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes
+$ git init
+Initialized empty Git repository in C:/Users/Administrator/git_demo/changes/.git/
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$  git pull https://github.com/Mossy1927/test.git
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 1), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), 555 bytes | 26.00 KiB/s, done.
+From https://github.com/Mossy1927/test
+ * branch            HEAD       -> FETCH_HEAD
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ C:\Users\Administrator\git_demo\changes
+bash: C:UsersAdministratorgit_demochanges: command not found
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ C:\Users\Administrator\git_demo\changes notepad test-2
+bash: C:UsersAdministratorgit_demochanges: command not found
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ C:/Users/Administrator/git_demo/changes notepad test-2
+bash: C:/Users/Administrator/git_demo/changes: Is a directory
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ c:/windows/notepad test-2
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test-2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git add .
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git commit -m "changes made"
+[master f9ac663] changes made
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git remote add origin ^C
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git remote add origin https://github.com/Mossy1927/test.git
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git remote -v
+origin  https://github.com/Mossy1927/test.git (fetch)
+origin  https://github.com/Mossy1927/test.git (push)
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Mossy1927/test/pull/new/master
+remote:
+To https://github.com/Mossy1927/test.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+OTLCHEDT027+Administrator@OTLCHEDT027 MINGW64 ~/git_demo/changes (master)
+$
